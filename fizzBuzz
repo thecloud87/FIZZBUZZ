@@ -21,7 +21,7 @@ def FizzBuzz(number):
         myString = ""
         if n % 3 == 0:
             myString += "FIZZ"
-        if n % 5 == 0:
+        elif n % 5 == 0:
             myString += "BUZZ"
         print myString or n
 
