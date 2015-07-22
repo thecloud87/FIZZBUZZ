@@ -14,7 +14,7 @@ def FizzBuzz(number):
 
 FizzBuzz(15)
 
-#solution with only 2 if statements
+#optimized solution with only 2 if statements
 
 def FizzBuzz(number):
     for n in range(1, number+1):
